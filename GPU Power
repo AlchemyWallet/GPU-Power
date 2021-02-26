@@ -1,0 +1,17 @@
+GPU Power
+https://rastating.github.io/how-to-permanently-set-nvidia-powermizer-settings-in-ubuntu/
+
+http://manpages.ubuntu.com/manpages/bionic/man1/nvidia-settings.1.html
+
+https://forums.developer.nvidia.com/t/solved-forcing-maximum-power-saving-on-the-desktop-minimum-power-mode-for-powermizer/30403/3
+
+# Highest Performance
+https://wiki.archlinux.org/index.php/NVIDIA/Tips_and_tricks#Allow_change_to_highest_performance_mode
+
+`nvidia-smi -i 0 -ac memratemax,clockratemax`
+
+# ls:
+`nvidia-settings --query GPUPerfModes`
+
+# Question
+https://askubuntu.com/questions/7749/how-can-i-overclock-a-graphics-card-from-within-ubuntu
